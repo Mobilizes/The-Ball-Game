@@ -1,0 +1,110 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://assets/backgrounds/credits.png" type="Texture" id=1]
+[ext_resource path="res://Outfit-VariableFont_wght.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://assets/characters/cookie.png" type="Texture" id=3]
+[ext_resource path="res://Dongle-Light.ttf" type="DynamicFontData" id=4]
+[ext_resource path="res://codes/RestartButton.gd" type="Script" id=5]
+[ext_resource path="res://codes/credits.gd" type="Script" id=6]
+
+[sub_resource type="DynamicFont" id=2]
+size = 72
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 32
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=4]
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=5]
+size = 32
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=6]
+size = 60
+font_data = ExtResource( 4 )
+
+[node name="Credits" type="Node2D"]
+script = ExtResource( 6 )
+
+[node name="Credits" type="Sprite" parent="."]
+position = Vector2( 512, 300 )
+texture = ExtResource( 1 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_right = 1024.0
+margin_bottom = 224.0
+custom_fonts/normal_font = SubResource( 2 )
+text = "        Thank you for playing! "
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="."]
+margin_top = 129.0
+margin_right = 1024.0
+margin_bottom = 214.0
+custom_fonts/normal_font = SubResource( 3 )
+text = "                    The game is not finished, but for the jam, it is done.
+"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel3" type="RichTextLabel" parent="."]
+margin_left = 62.0
+margin_top = 215.0
+margin_right = 962.0
+margin_bottom = 279.0
+custom_fonts/normal_font = SubResource( 1 )
+text = "    Me joining this game jam pretty much crushed my time that was supposed to be studying for chemistry test (I have regrets.)
+                                                                                              but I think its worth it."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel4" type="RichTextLabel" parent="."]
+margin_top = 262.0
+margin_right = 1024.0
+margin_bottom = 331.0
+custom_fonts/normal_font = SubResource( 4 )
+text = "                              Thank you everyone that helped me in the My First Game Jam discord for putting up with my stupid questions.
+							"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel5" type="RichTextLabel" parent="."]
+margin_top = 294.0
+margin_right = 1024.0
+margin_bottom = 376.0
+custom_fonts/normal_font = SubResource( 5 )
+text = "                     I am going to try to improve more for better game."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Cookie" type="Sprite" parent="."]
+position = Vector2( 520, 483 )
+scale = Vector2( 0.75, 0.75 )
+texture = ExtResource( 3 )
+
+[node name="Button" type="Button" parent="."]
+margin_left = 399.0
+margin_top = 431.0
+margin_right = 659.0
+margin_bottom = 536.0
+custom_fonts/font = SubResource( 6 )
+text = "Play again?"
+flat = true
+script = ExtResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="Button" to="Button" method="_on_Button_pressed"]

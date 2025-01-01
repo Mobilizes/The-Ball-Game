@@ -1,0 +1,15 @@
+{
+	"events": [
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Other monkeys came from the cave. \nAnd everyone was asking if he is fine. He trembled and cried. \nthen they said something that lessened his cries. \nThat was my first time watching the humans. \nThe humans then danced to a fireplace, \nate cooked meat from the animal that they killed while interacting with others, \nand hugged each other in a room where there are only two of them. \nI did not get why they do this and I still don't. \nThis is the first time I had seen something so unfamiliar since the world had been existing. \nIt confuses me. \nI thought following them for longer would give me the answer."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4 - DEV",
+		"file": "timeline-1643363908.json",
+		"name": "monologue4"
+	}
+}

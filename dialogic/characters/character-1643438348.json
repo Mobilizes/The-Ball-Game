@@ -1,0 +1,21 @@
+{
+	"color": "#ffe7a36a",
+	"description": "Cookie that shocks anyone to death with FACTS",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1643438348.json",
+	"mirror_portraits": false,
+	"name": "Sussy Cookie",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 20,
+	"offset_y": -220,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://assets/characters/suscookie.png"
+		}
+	],
+	"scale": 100,
+	"theme": ""
+}

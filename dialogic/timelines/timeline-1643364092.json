@@ -1,0 +1,15 @@
+{
+	"events": [
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "But no. \nEven after hundreds of thousands of years, I still do not get it. \nI do realize that I'm missing something that they all have. \nA soul. \nThey can laugh and cry, \nbe angry and be forgiving, \nbe generous and be greedy,\nbe hopeful and be despaired,\nbecause they have a soul. \nOnce I realize this, I still feel nothing. \nI shouldn't feel anything. \nAfter all, I am just the void. I don't have a soul. \nBut cursed with the ability to exist in mind. \nI am miserable.\nBut, even without a soul, I still hope that one day, \nI could experience life like they did. \nForm a story that no one expects, \nlive a plot that no one writes, \nenjoy things as if I had never enjoyed them before. \nAnd that is beautiful in my eyes."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4 - DEV",
+		"file": "timeline-1643364092.json",
+		"name": "monologue5"
+	}
+}

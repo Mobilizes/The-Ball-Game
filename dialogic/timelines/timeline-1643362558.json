@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "When I first notice those furless monkeys,\nThose weird monkeys were weak, always defeated by other animals that are simply stronger. \nIt is has no prowess in combat. It has no claw, no fang, no power.\nI remembered that one monkey was shaking and won't run away when it is cornered.\nI thought he was a fool. "
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 0.5
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4 - DEV",
+		"file": "timeline-1643362558.json",
+		"name": "monologue2"
+	}
+}

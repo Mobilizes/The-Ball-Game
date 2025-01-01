@@ -1,0 +1,31 @@
+{
+	"events": [
+		{
+			"character": "character-1643438348.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I am a cookie. You are a ball. A ball cannot eat cookies."
+		},
+		{
+			"character": "character-1643276520.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "WHAT."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "And thus, the ball dies out of shock and disappointment."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4 - DEV",
+		"file": "timeline-1643438160.json",
+		"name": "suscookie"
+	}
+}

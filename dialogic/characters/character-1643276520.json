@@ -1,0 +1,21 @@
+{
+	"color": "#ffffffff",
+	"description": "The wandering void",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1643276520.json",
+	"mirror_portraits": false,
+	"name": "The Ball",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 20,
+	"offset_y": -220,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://assets/characters/PlayerDialogue.png"
+		}
+	],
+	"scale": 25,
+	"theme": ""
+}

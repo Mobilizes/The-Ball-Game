@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Ludum Dare 38 - Track 1.wav-73219f2cb4b0ebab4a5d239c26fd0056.sample"
+
+[deps]
+
+source_file="res://assets/audio/Ludum Dare 38 - Track 1.wav"
+dest_files=[ "res://.import/Ludum Dare 38 - Track 1.wav-73219f2cb4b0ebab4a5d239c26fd0056.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

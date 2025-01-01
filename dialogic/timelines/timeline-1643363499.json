@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "But then, he looked at a cave and got up. \nWhen the animal leapt to him, he dodged and ran to the cave. \nOf course, he was slow, and the lion caught him.\nHowever, this time, he screamed for help. \nIn an instant, a spear came from the cave and pierced the lion in the head, \nkilling it instantly."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 0.5
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4 - DEV",
+		"file": "timeline-1643363499.json",
+		"name": "monologue3"
+	}
+}

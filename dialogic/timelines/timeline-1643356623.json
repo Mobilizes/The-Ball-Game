@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"If I am a living being, I would feel jealousy, but I don't feel anything.\"\n\"If I am a living being, I would feel anger, but I don't feel anything. \"\n\"If I am a living being, I would feel discontent, but I don't feel anything. \"\n\"If I am a living being...\"\nThese thoughts are getting stronger day by day and I can't stop thinking about it. \n[wave amp=50 freq=5]Make it stop.[/wave]"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 0.5
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4 - DEV",
+		"file": "timeline-1643356623.json",
+		"name": "monologue6"
+	}
+}
